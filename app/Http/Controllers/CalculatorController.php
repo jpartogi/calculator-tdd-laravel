@@ -9,12 +9,14 @@ class CalculatorController extends BaseController
 {
 	public function calculate(Request $request)
 	{
-		$str = $request->str;
+		$input = $request->input;
 
-		$result = intval($str);
+		$result = intval($input);
 
-		return response()->json([
+		$response = [
 		    'result' => $result
-		]);
+		];
+
+		return response()->json($response);
 	}
 }
