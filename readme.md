@@ -1,4 +1,4 @@
-# Calculator TDD with Laravel
+# Calculator TDD Kata with Laravel
 
 ## Prerequisites:
 
@@ -11,8 +11,8 @@
 1. Run each of these commands from the console in sequential order:
 
 - `composer update` 
-- `cp .env.example .env` from the command line
-- Run `php artisan key:generate`
-- Run `php artisan serve`
+- `cp .env.example .env` 
+- `php artisan key:generate`
+- `php artisan serve`
 
 2. Access the case study from the browser using this URL: http://localhost:8000/api/calc?input=1
