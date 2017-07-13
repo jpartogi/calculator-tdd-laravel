@@ -10,9 +10,9 @@
 
 1. Run each of these commands from the console in sequential order:
 
-1.1. `composer update` 
-1.2. `cp .env.example .env` from the command line
-1.3. Run `php artisan key:generate`
-1.4. Run `php artisan serve`
+- `composer update` 
+- `cp .env.example .env` from the command line
+- Run `php artisan key:generate`
+- Run `php artisan serve`
 
 2. Access the case study from the browser using this URL: http://localhost:8000/api/calc?input=1
